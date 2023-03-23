@@ -50,7 +50,7 @@ function Introduct(props) {
                 <h4>Giá sản phẩm chỉ: <span className='text-danger fw-bold'>790.000 ₫</span></h4>
                 <img className='mt-5 w-25 d-block mx-auto' src={txv3} alt="" />
             </div>
-            <h3 className='text-center bg-dark text-white mt-5'><marquee scrollamount="20">Liên hệ với shop để được hỗ trợ mua hàng với giá ưu đãi</marquee></h3>
+            <h3 className='text-center bg-dark text-white mt-5'><marquee scrollamount="10">Liên hệ với shop để được hỗ trợ mua hàng với giá ưu đãi</marquee></h3>
         </div>
     );
 }
