@@ -44,13 +44,13 @@ function Introduct(props) {
                 </ul>
                 <h3><strong>5. Ai nên sử dụng TPCN Trường Xuân Vương?</strong></h3>
                 <p>Trường Xuân Vương là sản phẩm được phát triển từ bài thuốc tăng cường sinh lý nam của lương y Nguyễn Hữu Trọng. Sản phẩm đã được kiểm chứng về an toàn và hiệu quả với sức khỏe nam giới. </p>
-                <img src={txv5} alt="" />
+                <img className='mt-5 w-75 d-block mx-auto' src={txv5} alt="" />
             </div>
             <div className="price text-center mt-5">
                 <h4>Giá sản phẩm chỉ: <span className='text-danger fw-bold'>790.000 ₫</span></h4>
-                <img className='mt-5 w-75' src={txv3} alt="" />
+                <img className='mt-5 w-25 d-block mx-auto' src={txv3} alt="" />
             </div>
-            <h3 className='text-center bg-dark text-white mt-5'>Liên hệ với shop để được hỗ trợ mua hàng với giá ưu đãi</h3>
+            <h3 className='text-center bg-dark text-white mt-5'><marquee scrollamount="20">Liên hệ với shop để được hỗ trợ mua hàng với giá ưu đãi</marquee></h3>
         </div>
     );
 }
