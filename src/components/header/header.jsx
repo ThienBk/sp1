@@ -6,7 +6,7 @@ import Introduct from '../introduct/introduct.jsx';
 function Header(props) {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg navbar-light bg-info">
+            <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-info">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="/"><strong>Trần Xuân Vương</strong></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

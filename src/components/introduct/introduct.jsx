@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, Route, Router, Routes } from 'react-router-dom';
+// import 'introduct.scss';
 import txv1 from '../../accessts/img/txv1.png';
 import txv2 from '../../accessts/img/txv/z2562372223133_bc709e1b488728e20061ff8ed1856e5e-removebg-preview.png';
 import txv3 from '../../accessts/img/txv/truong-xuan-vuong.png';
@@ -8,8 +9,8 @@ import txv5 from '../../accessts/img/txv/ai-su-dung-truong-xuan-vuong.jpg';
 
 function Introduct(props) {
     return (
-        <div>
-            <h1 className='text-center mt-4'>Giới thiệu sản phẩm</h1>
+        <div className='mt-5'>
+            <h1 style={{paddingTop: '50px'}} className='text-center mt-5'>Giới thiệu sản phẩm</h1>
             <div className='container content mt-5'>
                 <h3><strong>1. Trường Xuân Vương là thuốc gì?</strong></h3>
                 <img className='w-50 d-block mx-auto' src={txv2} alt="" />
