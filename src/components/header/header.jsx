@@ -8,7 +8,7 @@ function Header(props) {
         <div>
             <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-info">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="/"><strong>Trần Xuân Vương</strong></a>
+                    <a className="navbar-brand" href="/"><strong>Thiện Creations</strong></a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon" />
                     </button>
@@ -21,7 +21,7 @@ function Header(props) {
                             </li>
                             <li className="nav-item">
                                 <Link to="/introduct" className="nav-link active" aria-current="page" href="/">
-                                    Giới thiệu sản phẩm
+                                    Giới thiệu bản thân
                                 </Link>
                             </li>
                             <li className="nav-item dropdown">
